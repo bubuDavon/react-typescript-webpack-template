@@ -11,6 +11,12 @@
   ],
   "plugins": [
     [
+      "babel-plugin-react-compiler",
+      {
+        "target": "19"
+      }
+    ],
+    [
       "@babel/plugin-transform-runtime",
       {
         "regenerator": true
