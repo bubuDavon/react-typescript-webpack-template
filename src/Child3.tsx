@@ -5,7 +5,7 @@ export const Child3 = ({value}) => {
 
   return (
     <div>
-      <h3>Child Component2, value = {value}</h3>
+      <h3>Child Component3, value = {value}</h3>
     </div>
   )
 }

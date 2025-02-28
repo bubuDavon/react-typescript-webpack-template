@@ -33,6 +33,7 @@ export default [
       react: reactPlugin,
       'react-hooks': hooksPlugin,
       '@typescript-eslint': typescriptEslint,
+      'react-compiler': reactCompiler,
     },
 
     rules: {
@@ -42,6 +43,7 @@ export default [
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/ban-ts-comment': 'warn',
+      'react-compiler/react-compiler': 'error',
     },
   },
   // custom rules
